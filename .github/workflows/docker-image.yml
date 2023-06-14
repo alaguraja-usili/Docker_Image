@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-world-docker-action@v2
+        uses: ./
         with:
           who-to-greet: 'ALAGYU the Octocat'
       # Use the output from the `hello` step
