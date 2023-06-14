@@ -2,4 +2,4 @@
 
 echo "Hello ALAGU $1"
 time=$(date)
-echo "currenttime=$time" >> $GITHUB_OUTPUT
+echo "time=$time" >> $GITHUB_OUTPUT
